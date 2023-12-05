@@ -60,7 +60,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Diogo Santos";
+            document.title = "Diogo | Tanabe";
             $("#favicon").attr("href", "assets/images/profile2.jpg");
         }
         else {
@@ -72,7 +72,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Full Stack developer", "AI Developer", "shopify developer"],
+    strings: ["a Full Stack developer", "an AI Developer", "a shopify developer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
